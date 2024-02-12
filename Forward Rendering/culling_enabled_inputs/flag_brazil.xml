@@ -1,0 +1,698 @@
+<Scene>
+	<BackgroundColor>255 255 255</BackgroundColor>
+	<Culling>enabled</Culling>
+	<Cameras>
+		<Camera id="1" type="perspective">
+			<Position>-150 0 10</Position>
+			<Gaze>1 0 0</Gaze>
+			<Up>0 1 0</Up>
+			<ImagePlane>-1 1 -1 1 2 1000 1000 1000</ImagePlane>
+			<OutputName>flag_brazil_1.ppm</OutputName>
+		</Camera>
+		<Camera id="2" type="perspective">
+			<Position>-150 0 30</Position>
+			<Gaze>1 0 0</Gaze>
+			<Up>0 1 0</Up>
+			<ImagePlane>-1 1 -1 1 2 1000 1000 1000</ImagePlane>
+			<OutputName>flag_brazil_2.ppm</OutputName>
+		</Camera>
+		<Camera id="3" type="perspective">
+			<Position>0 0 100</Position>
+			<Gaze>0 0 -1</Gaze>
+			<Up>0 1 0</Up>
+			<ImagePlane>-1 1 -1 1 2 1000 1000 1000</ImagePlane>
+			<OutputName>flag_brazil_final.ppm</OutputName>
+		</Camera>
+	</Cameras>
+
+	<Vertices>
+		<Vertex id="1" position="-40 25 0" color="0 156 59" />
+		<Vertex id="2" position="-40 -25 0" color="0 156 59" />
+		<Vertex id="3" position="40 -25 0" color="0 156 59" />
+		<Vertex id="4" position="40 25 0" color="0 156 59" />
+		<Vertex id="5" position="40 25 -20" color="0 0 255" />
+		<Vertex id="6" position="40 -25 -20" color="0 0 255" />
+		<Vertex id="7" position="-40 25 -20" color="0 255 255" />
+		<Vertex id="8" position="-40 -25 -20" color="0 255 255" />
+		<Vertex id="9" position="-20 0 0" color="255 223 0" />
+		<Vertex id="10" position="0 12 0" color="255 223 0" />
+		<Vertex id="11" position="0 0 20" color="255 223 0" />
+		<Vertex id="12" position="20 0 0" color="255 223 0" />
+		<Vertex id="13" position="0 -12 0" color="255 223 0" />
+		<Vertex id="14" position="-8 0.0 50" color="0 39 118" />
+		<Vertex id="15" position="-7.75 1.9843134833 50" color="0 39 118" />
+		<Vertex id="16" position="-7.5 2.78388218142 50" color="0 39 118" />
+		<Vertex id="17" position="-7.25 3.38193731462 50" color="0 39 118" />
+		<Vertex id="18" position="-7.0 3.87298334621 50" color="0 39 118" />
+		<Vertex id="19" position="-6.75 4.29389100933 50" color="0 39 118" />
+		<Vertex id="20" position="-6.5 4.66368952654 50" color="0 39 118" />
+		<Vertex id="21" position="-6.25 4.99374608886 50" color="0 39 118" />
+		<Vertex id="22" position="-6.0 5.29150262213 50" color="0 39 118" />
+		<Vertex id="23" position="-5.75 5.56214886532 50" color="0 39 118" />
+		<Vertex id="24" position="-5.5 5.80947501931 50" color="0 39 118" />
+		<Vertex id="25" position="-5.25 6.03634823382 50" color="0 39 118" />
+		<Vertex id="26" position="-5.0 6.2449979984 50" color="0 39 118" />
+		<Vertex id="27" position="-4.75 6.43719659479 50" color="0 39 118" />
+		<Vertex id="28" position="-4.5 6.61437827766 50" color="0 39 118" />
+		<Vertex id="29" position="-4.25 6.77772085586 50" color="0 39 118" />
+		<Vertex id="30" position="-4.0 6.92820323028 50" color="0 39 118" />
+		<Vertex id="31" position="-3.75 7.06664701255 50" color="0 39 118" />
+		<Vertex id="32" position="-3.5 7.19374728497 50" color="0 39 118" />
+		<Vertex id="33" position="-3.25 7.31009575861 50" color="0 39 118" />
+		<Vertex id="34" position="-3.0 7.4161984871 50" color="0 39 118" />
+		<Vertex id="35" position="-2.75 7.51248960066 50" color="0 39 118" />
+		<Vertex id="36" position="-2.5 7.59934207679 50" color="0 39 118" />
+		<Vertex id="37" position="-2.25 7.67707626639 50" color="0 39 118" />
+		<Vertex id="38" position="-2.0 7.74596669241 50" color="0 39 118" />
+		<Vertex id="39" position="-1.75 7.806247498 50" color="0 39 118" />
+		<Vertex id="40" position="-1.5 7.85811682275 50" color="0 39 118" />
+		<Vertex id="41" position="-1.25 7.90174031464 50" color="0 39 118" />
+		<Vertex id="42" position="-1.0 7.93725393319 50" color="0 39 118" />
+		<Vertex id="43" position="-0.75 7.96476616104 50" color="0 39 118" />
+		<Vertex id="44" position="-0.5 7.98435971134 50" color="0 39 118" />
+		<Vertex id="45" position="-0.25 7.99609279586 50" color="0 39 118" />
+		<Vertex id="46" position="0.0 8.0 50" color="0 39 118" />
+		<Vertex id="47" position="0.25 7.99609279586 50" color="0 39 118" />
+		<Vertex id="48" position="0.5 7.98435971134 50" color="0 39 118" />
+		<Vertex id="49" position="0.75 7.96476616104 50" color="0 39 118" />
+		<Vertex id="50" position="1.0 7.93725393319 50" color="0 39 118" />
+		<Vertex id="51" position="1.25 7.90174031464 50" color="0 39 118" />
+		<Vertex id="52" position="1.5 7.85811682275 50" color="0 39 118" />
+		<Vertex id="53" position="1.75 7.806247498 50" color="0 39 118" />
+		<Vertex id="54" position="2.0 7.74596669241 50" color="0 39 118" />
+		<Vertex id="55" position="2.25 7.67707626639 50" color="0 39 118" />
+		<Vertex id="56" position="2.5 7.59934207679 50" color="0 39 118" />
+		<Vertex id="57" position="2.75 7.51248960066 50" color="0 39 118" />
+		<Vertex id="58" position="3.0 7.4161984871 50" color="0 39 118" />
+		<Vertex id="59" position="3.25 7.31009575861 50" color="0 39 118" />
+		<Vertex id="60" position="3.5 7.19374728497 50" color="0 39 118" />
+		<Vertex id="61" position="3.75 7.06664701255 50" color="0 39 118" />
+		<Vertex id="62" position="4.0 6.92820323028 50" color="0 39 118" />
+		<Vertex id="63" position="4.25 6.77772085586 50" color="0 39 118" />
+		<Vertex id="64" position="4.5 6.61437827766 50" color="0 39 118" />
+		<Vertex id="65" position="4.75 6.43719659479 50" color="0 39 118" />
+		<Vertex id="66" position="5.0 6.2449979984 50" color="0 39 118" />
+		<Vertex id="67" position="5.25 6.03634823382 50" color="0 39 118" />
+		<Vertex id="68" position="5.5 5.80947501931 50" color="0 39 118" />
+		<Vertex id="69" position="5.75 5.56214886532 50" color="0 39 118" />
+		<Vertex id="70" position="6.0 5.29150262213 50" color="0 39 118" />
+		<Vertex id="71" position="6.25 4.99374608886 50" color="0 39 118" />
+		<Vertex id="72" position="6.5 4.66368952654 50" color="0 39 118" />
+		<Vertex id="73" position="6.75 4.29389100933 50" color="0 39 118" />
+		<Vertex id="74" position="7.0 3.87298334621 50" color="0 39 118" />
+		<Vertex id="75" position="7.25 3.38193731462 50" color="0 39 118" />
+		<Vertex id="76" position="7.5 2.78388218142 50" color="0 39 118" />
+		<Vertex id="77" position="7.75 1.9843134833 50" color="0 39 118" />
+		<Vertex id="78" position="8.0 0.0 50" color="0 39 118" />
+		<Vertex id="79" position="7.75 -1.9843134833 50" color="0 39 118" />
+		<Vertex id="80" position="7.5 -2.78388218142 50" color="0 39 118" />
+		<Vertex id="81" position="7.25 -3.38193731462 50" color="0 39 118" />
+		<Vertex id="82" position="7.0 -3.87298334621 50" color="0 39 118" />
+		<Vertex id="83" position="6.75 -4.29389100933 50" color="0 39 118" />
+		<Vertex id="84" position="6.5 -4.66368952654 50" color="0 39 118" />
+		<Vertex id="85" position="6.25 -4.99374608886 50" color="0 39 118" />
+		<Vertex id="86" position="6.0 -5.29150262213 50" color="0 39 118" />
+		<Vertex id="87" position="5.75 -5.56214886532 50" color="0 39 118" />
+		<Vertex id="88" position="5.5 -5.80947501931 50" color="0 39 118" />
+		<Vertex id="89" position="5.25 -6.03634823382 50" color="0 39 118" />
+		<Vertex id="90" position="5.0 -6.2449979984 50" color="0 39 118" />
+		<Vertex id="91" position="4.75 -6.43719659479 50" color="0 39 118" />
+		<Vertex id="92" position="4.5 -6.61437827766 50" color="0 39 118" />
+		<Vertex id="93" position="4.25 -6.77772085586 50" color="0 39 118" />
+		<Vertex id="94" position="4.0 -6.92820323028 50" color="0 39 118" />
+		<Vertex id="95" position="3.75 -7.06664701255 50" color="0 39 118" />
+		<Vertex id="96" position="3.5 -7.19374728497 50" color="0 39 118" />
+		<Vertex id="97" position="3.25 -7.31009575861 50" color="0 39 118" />
+		<Vertex id="98" position="3.0 -7.4161984871 50" color="0 39 118" />
+		<Vertex id="99" position="2.75 -7.51248960066 50" color="0 39 118" />
+		<Vertex id="100" position="2.5 -7.59934207679 50" color="0 39 118" />
+		<Vertex id="101" position="2.25 -7.67707626639 50" color="0 39 118" />
+		<Vertex id="102" position="2.0 -7.74596669241 50" color="0 39 118" />
+		<Vertex id="103" position="1.75 -7.806247498 50" color="0 39 118" />
+		<Vertex id="104" position="1.5 -7.85811682275 50" color="0 39 118" />
+		<Vertex id="105" position="1.25 -7.90174031464 50" color="0 39 118" />
+		<Vertex id="106" position="1.0 -7.93725393319 50" color="0 39 118" />
+		<Vertex id="107" position="0.75 -7.96476616104 50" color="0 39 118" />
+		<Vertex id="108" position="0.5 -7.98435971134 50" color="0 39 118" />
+		<Vertex id="109" position="0.25 -7.99609279586 50" color="0 39 118" />
+		<Vertex id="110" position="0.0 -8.0 50" color="0 39 118" />
+		<Vertex id="111" position="-0.25 -7.99609279586 50" color="0 39 118" />
+		<Vertex id="112" position="-0.5 -7.98435971134 50" color="0 39 118" />
+		<Vertex id="113" position="-0.75 -7.96476616104 50" color="0 39 118" />
+		<Vertex id="114" position="-1.0 -7.93725393319 50" color="0 39 118" />
+		<Vertex id="115" position="-1.25 -7.90174031464 50" color="0 39 118" />
+		<Vertex id="116" position="-1.5 -7.85811682275 50" color="0 39 118" />
+		<Vertex id="117" position="-1.75 -7.806247498 50" color="0 39 118" />
+		<Vertex id="118" position="-2.0 -7.74596669241 50" color="0 39 118" />
+		<Vertex id="119" position="-2.25 -7.67707626639 50" color="0 39 118" />
+		<Vertex id="120" position="-2.5 -7.59934207679 50" color="0 39 118" />
+		<Vertex id="121" position="-2.75 -7.51248960066 50" color="0 39 118" />
+		<Vertex id="122" position="-3.0 -7.4161984871 50" color="0 39 118" />
+		<Vertex id="123" position="-3.25 -7.31009575861 50" color="0 39 118" />
+		<Vertex id="124" position="-3.5 -7.19374728497 50" color="0 39 118" />
+		<Vertex id="125" position="-3.75 -7.06664701255 50" color="0 39 118" />
+		<Vertex id="126" position="-4.0 -6.92820323028 50" color="0 39 118" />
+		<Vertex id="127" position="-4.25 -6.77772085586 50" color="0 39 118" />
+		<Vertex id="128" position="-4.5 -6.61437827766 50" color="0 39 118" />
+		<Vertex id="129" position="-4.75 -6.43719659479 50" color="0 39 118" />
+		<Vertex id="130" position="-5.0 -6.2449979984 50" color="0 39 118" />
+		<Vertex id="131" position="-5.25 -6.03634823382 50" color="0 39 118" />
+		<Vertex id="132" position="-5.5 -5.80947501931 50" color="0 39 118" />
+		<Vertex id="133" position="-5.75 -5.56214886532 50" color="0 39 118" />
+		<Vertex id="134" position="-6.0 -5.29150262213 50" color="0 39 118" />
+		<Vertex id="135" position="-6.25 -4.99374608886 50" color="0 39 118" />
+		<Vertex id="136" position="-6.5 -4.66368952654 50" color="0 39 118" />
+		<Vertex id="137" position="-6.75 -4.29389100933 50" color="0 39 118" />
+		<Vertex id="138" position="-7.0 -3.87298334621 50" color="0 39 118" />
+		<Vertex id="139" position="-7.25 -3.38193731462 50" color="0 39 118" />
+		<Vertex id="140" position="-7.5 -2.78388218142 50" color="0 39 118" />
+		<Vertex id="141" position="-7.75 -1.9843134833 50" color="0 39 118" />
+		<Vertex id="142" position="-8 -0.0 50" color="0 39 118" />
+		<Vertex id="143" position="0 0 50" color="0 39 118" />
+		<Vertex id="144" position="0 0 44" color="0 255 255" />
+		<Vertex id="145" position="-5.0 0.5 0.0" color="230 230 230" />
+		<Vertex id="146" position="-5.0 -0.5 0.0" color="230 230 230" />
+		<Vertex id="147" position="5.0 -0.5 0.0" color="230 230 230" />
+		<Vertex id="148" position="5.0 0.5 0.0" color="230 230 230" />
+		<Vertex id="149" position="5.0 0.5 -1.0" color="0 0 255" />
+		<Vertex id="150" position="5.0 -0.5 -1.0" color="0 0 255" />
+		<Vertex id="151" position="-5.0 0.5 -1.0" color="0 255 255" />
+		<Vertex id="152" position="-5.0 -0.5 -1.0" color="0 255 255" />
+		<Vertex id="153" position="0 2 5" color="255 255 255" />
+		<Vertex id="154" position="-1.90211303259 0.61803398875 5" color="255 255 255" />
+		<Vertex id="155" position="-1.17557050458 -1.61803398875 5" color="255 255 255" />
+		<Vertex id="156" position="1.17557050458 -1.61803398875 5" color="255 255 255" />
+		<Vertex id="157" position="1.90211303259 0.61803398875 5" color="255 255 255" />
+		<Vertex id="158" position="-0.475528258148 0.654508497187 5" color="255 255 255" />
+		<Vertex id="159" position="-0.769420884294 -0.25 5" color="255 255 255" />
+		<Vertex id="160" position="0 -0.809016994375 5" color="255 255 255" />
+		<Vertex id="161" position="0.769420884294 -0.25 5" color="255 255 255" />
+		<Vertex id="162" position="0.475528258148 0.654508497187 5" color="255 255 255" />
+		<Vertex id="163" position="0 0 5" color="255 255 255" />
+		<Vertex id="164" position="0 0 3" color="0 0 255" />
+	</Vertices>
+
+	<Translations>
+		<Translation id="1" value="0 0 20" />
+		<Translation id="2" value="0 0 15" />
+		<Translation id="3" value="0 0 60" />
+		<Translation id="4" value="0 0.25 0" />
+		<Translation id="5" value="0 0 70" />
+		<Translation id="6" value="0 -2 0" />
+		<Translation id="7" value="2 1 0" />
+		<Translation id="8" value="1 0.5 0" />
+		<Translation id="9" value="1 0 0" />
+		<Translation id="10" value="-2 0.5 0" />
+	</Translations>
+
+	<Scalings>
+		<Scaling id="1" value="0.1 0.1 0.1" />
+		<Scaling id="2" value="0.25 0.25 0.25" />
+		<Scaling id="3" value="0.5 0.5 0.5" />
+		<Scaling id="4" value="0.75 0.75 0.75" />
+		<Scaling id="5" value="1.25 1.25 1.25" />
+	</Scalings>
+
+	<Rotations>
+		<Rotation id="1" value="75 0 1 0" />
+		<Rotation id="2" value="36 0 1 0" />
+		<Rotation id="3" value="350 0 0 1" />
+	</Rotations>
+
+	<Meshes>
+
+		<Mesh id="1" type="solid">
+			<Transformations>
+			</Transformations>
+			<Faces>
+				1 2 3
+				1 3 4
+				8 3 2
+				6 3 8
+				4 3 6
+				4 6 5
+				5 6 8
+				5 8 7
+				7 1 4
+				7 4 5
+				7 2 1
+				7 8 2
+			</Faces>
+		</Mesh>
+		<Mesh id="2" type="solid">
+			<Transformations>
+				<Transformation>s 5</Transformation>
+				<Transformation>t 1</Transformation>
+			</Transformations>
+			<Faces>
+				9 11 10
+				10 11 12
+				12 11 13
+				13 11 9
+				10 12 9
+				9 12 13
+			</Faces>
+		</Mesh>
+		<Mesh id="3" type="solid">
+			<Transformations>
+				<Transformation>s 4</Transformation>
+				<Transformation>t 2</Transformation>
+			</Transformations>
+			<Faces>
+				143 15 14
+				143 16 15
+				143 17 16
+				143 18 17
+				143 19 18
+				143 20 19
+				143 21 20
+				143 22 21
+				143 23 22
+				143 24 23
+				143 25 24
+				143 26 25
+				143 27 26
+				143 28 27
+				143 29 28
+				143 30 29
+				143 31 30
+				143 32 31
+				143 33 32
+				143 34 33
+				143 35 34
+				143 36 35
+				143 37 36
+				143 38 37
+				143 39 38
+				143 40 39
+				143 41 40
+				143 42 41
+				143 43 42
+				143 44 43
+				143 45 44
+				143 46 45
+				143 47 46
+				143 48 47
+				143 49 48
+				143 50 49
+				143 51 50
+				143 52 51
+				143 53 52
+				143 54 53
+				143 55 54
+				143 56 55
+				143 57 56
+				143 58 57
+				143 59 58
+				143 60 59
+				143 61 60
+				143 62 61
+				143 63 62
+				143 64 63
+				143 65 64
+				143 66 65
+				143 67 66
+				143 68 67
+				143 69 68
+				143 70 69
+				143 71 70
+				143 72 71
+				143 73 72
+				143 74 73
+				143 75 74
+				143 76 75
+				143 77 76
+				143 78 77
+				143 79 78
+				143 80 79
+				143 81 80
+				143 82 81
+				143 83 82
+				143 84 83
+				143 85 84
+				143 86 85
+				143 87 86
+				143 88 87
+				143 89 88
+				143 90 89
+				143 91 90
+				143 92 91
+				143 93 92
+				143 94 93
+				143 95 94
+				143 96 95
+				143 97 96
+				143 98 97
+				143 99 98
+				143 100 99
+				143 101 100
+				143 102 101
+				143 103 102
+				143 104 103
+				143 105 104
+				143 106 105
+				143 107 106
+				143 108 107
+				143 109 108
+				143 110 109
+				143 111 110
+				143 112 111
+				143 113 112
+				143 114 113
+				143 115 114
+				143 116 115
+				143 117 116
+				143 118 117
+				143 119 118
+				143 120 119
+				143 121 120
+				143 122 121
+				143 123 122
+				143 124 123
+				143 125 124
+				143 126 125
+				143 127 126
+				143 128 127
+				143 129 128
+				143 130 129
+				143 131 130
+				143 132 131
+				143 133 132
+				143 134 133
+				143 135 134
+				143 136 135
+				143 137 136
+				143 138 137
+				143 139 138
+				143 140 139
+				143 141 140
+				143 142 141
+				144 14 15
+				144 15 16
+				144 16 17
+				144 17 18
+				144 18 19
+				144 19 20
+				144 20 21
+				144 21 22
+				144 22 23
+				144 23 24
+				144 24 25
+				144 25 26
+				144 26 27
+				144 27 28
+				144 28 29
+				144 29 30
+				144 30 31
+				144 31 32
+				144 32 33
+				144 33 34
+				144 34 35
+				144 35 36
+				144 36 37
+				144 37 38
+				144 38 39
+				144 39 40
+				144 40 41
+				144 41 42
+				144 42 43
+				144 43 44
+				144 44 45
+				144 45 46
+				144 46 47
+				144 47 48
+				144 48 49
+				144 49 50
+				144 50 51
+				144 51 52
+				144 52 53
+				144 53 54
+				144 54 55
+				144 55 56
+				144 56 57
+				144 57 58
+				144 58 59
+				144 59 60
+				144 60 61
+				144 61 62
+				144 62 63
+				144 63 64
+				144 64 65
+				144 65 66
+				144 66 67
+				144 67 68
+				144 68 69
+				144 69 70
+				144 70 71
+				144 71 72
+				144 72 73
+				144 73 74
+				144 74 75
+				144 75 76
+				144 76 77
+				144 77 78
+				144 78 79
+				144 79 80
+				144 80 81
+				144 81 82
+				144 82 83
+				144 83 84
+				144 84 85
+				144 85 86
+				144 86 87
+				144 87 88
+				144 88 89
+				144 89 90
+				144 90 91
+				144 91 92
+				144 92 93
+				144 93 94
+				144 94 95
+				144 95 96
+				144 96 97
+				144 97 98
+				144 98 99
+				144 99 100
+				144 100 101
+				144 101 102
+				144 102 103
+				144 103 104
+				144 104 105
+				144 105 106
+				144 106 107
+				144 107 108
+				144 108 109
+				144 109 110
+				144 110 111
+				144 111 112
+				144 112 113
+				144 113 114
+				144 114 115
+				144 115 116
+				144 116 117
+				144 117 118
+				144 118 119
+				144 119 120
+				144 120 121
+				144 121 122
+				144 122 123
+				144 123 124
+				144 124 125
+				144 125 126
+				144 126 127
+				144 127 128
+				144 128 129
+				144 129 130
+				144 130 131
+				144 131 132
+				144 132 133
+				144 133 134
+				144 134 135
+				144 135 136
+				144 136 137
+				144 137 138
+				144 138 139
+				144 139 140
+				144 140 141
+				144 141 142
+			</Faces>
+		</Mesh>
+		<Mesh id="4" type="solid">
+			<Transformations>
+				<Transformation>r 3</Transformation>
+				<Transformation>t 3</Transformation>
+				<Transformation>t 4</Transformation>
+			</Transformations>
+			<Faces>
+				145 146 147
+				145 147 148
+				152 147 146
+				150 147 152
+				148 147 150
+				148 150 149
+				149 150 152
+				149 152 151
+				151 145 148
+				151 148 149
+				151 146 145
+				151 152 146
+			</Faces>
+		</Mesh>
+		<Mesh id="5" type="solid">
+			<Transformations>
+				<Transformation>s 1</Transformation>
+				<Transformation>t 5</Transformation>
+				<Transformation>t 6</Transformation>
+			</Transformations>
+			<Faces>
+				153 158 162
+				154 159 158
+				155 160 159
+				156 161 160
+				157 162 161
+				163 162 158
+				163 161 162
+				163 160 161
+				163 159 160
+				163 158 159
+				153 162 164
+				153 164 158
+				157 164 162
+				157 161 164
+				156 164 161
+				156 160 164
+				155 164 160
+				155 159 164
+				154 164 159
+				154 158 164
+				153 164 158
+			</Faces>
+		</Mesh>
+		<Mesh id="6" type="solid">
+			<Transformations>
+				<Transformation>s 1</Transformation>
+				<Transformation>t 5</Transformation>
+				<Transformation>t 6</Transformation>
+				<Transformation>t 7</Transformation>
+			</Transformations>
+			<Faces>
+				153 158 162
+				154 159 158
+				155 160 159
+				156 161 160
+				157 162 161
+				163 162 158
+				163 161 162
+				163 160 161
+				163 159 160
+				163 158 159
+				153 162 164
+				153 164 158
+				157 164 162
+				157 161 164
+				156 164 161
+				156 160 164
+				155 164 160
+				155 159 164
+				154 164 159
+				154 158 164
+				153 164 158
+			</Faces>
+		</Mesh>
+		<Mesh id="7" type="solid">
+			<Transformations>
+				<Transformation>s 1</Transformation>
+				<Transformation>t 5</Transformation>
+				<Transformation>t 6</Transformation>
+				<Transformation>t 8</Transformation>
+			</Transformations>
+			<Faces>
+				153 158 162
+				154 159 158
+				155 160 159
+				156 161 160
+				157 162 161
+				163 162 158
+				163 161 162
+				163 160 161
+				163 159 160
+				163 158 159
+				153 162 164
+				153 164 158
+				157 164 162
+				157 161 164
+				156 164 161
+				156 160 164
+				155 164 160
+				155 159 164
+				154 164 159
+				154 158 164
+				153 164 158
+			</Faces>
+		</Mesh>
+		<Mesh id="8" type="solid">
+			<Transformations>
+				<Transformation>s 1</Transformation>
+				<Transformation>t 5</Transformation>
+				<Transformation>t 6</Transformation>
+				<Transformation>t 9</Transformation>
+			</Transformations>
+			<Faces>
+				153 158 162
+				154 159 158
+				155 160 159
+				156 161 160
+				157 162 161
+				163 162 158
+				163 161 162
+				163 160 161
+				163 159 160
+				163 158 159
+				153 162 164
+				153 164 158
+				157 164 162
+				157 161 164
+				156 164 161
+				156 160 164
+				155 164 160
+				155 159 164
+				154 164 159
+				154 158 164
+				153 164 158
+			</Faces>
+		</Mesh>
+		<Mesh id="9" type="solid">
+			<Transformations>
+				<Transformation>s 1</Transformation>
+				<Transformation>t 5</Transformation>
+				<Transformation>t 6</Transformation>
+				<Transformation>t 9</Transformation>
+				<Transformation>t 10</Transformation>
+			</Transformations>
+			<Faces>
+				153 158 162
+				154 159 158
+				155 160 159
+				156 161 160
+				157 162 161
+				163 162 158
+				163 161 162
+				163 160 161
+				163 159 160
+				163 158 159
+				153 162 164
+				153 164 158
+				157 164 162
+				157 161 164
+				156 164 161
+				156 160 164
+				155 164 160
+				155 159 164
+				154 164 159
+				154 158 164
+				153 164 158
+			</Faces>
+		</Mesh>
+	</Meshes>
+
+</Scene>
